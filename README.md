@@ -6,7 +6,8 @@ https://githubgw.github.io/react-redux-dark-mode
 
 ## 🖥 Preview
 
-<img src="preview.png" />
+<img src="preview1.png" />
+<img src="preview2.png" />
 
 ## 🔥 Stack
 
