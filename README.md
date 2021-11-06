@@ -20,7 +20,7 @@ https://githubgw.github.io/react-redux-dark-mode
 
 - [x] React
 - [x] Redux
-- [x] Styled-Components
+- [x] Styled Components
 
 ## ⚙ React Redux
 
