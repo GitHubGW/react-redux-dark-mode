@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route } from "react-router-dom";
+import { HashRouter, Link, Route } from "react-router-dom";
 import { connect } from "react-redux";
 import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 import reset from "styled-reset";
@@ -35,7 +35,7 @@ const FooterTitle = styled.h5`
 
 const App = ({ state }) => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <ThemeProvider theme={theme}>
         <GlobalStyle isDark={state} />
         <Link to="/">Home</Link>
@@ -44,7 +44,7 @@ const App = ({ state }) => {
         <Route exact path="/about" component={About}></Route>
         <FooterTitle>&copy; ${new Date().getFullYear()} GW. ALL RIGHTS RESERVED.</FooterTitle>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
