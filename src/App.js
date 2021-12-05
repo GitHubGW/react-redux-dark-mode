@@ -35,7 +35,7 @@ const FooterTitle = styled.h5`
 
 const App = ({ state }) => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ThemeProvider theme={theme}>
         <GlobalStyle isDark={state} />
         <Link to="/">Home</Link>
