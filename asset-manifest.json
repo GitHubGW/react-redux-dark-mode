@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-redux-dark-mode/static/js/main.705f0d18.chunk.js",
-    "main.js.map": "/react-redux-dark-mode/static/js/main.705f0d18.chunk.js.map",
+    "main.js": "/react-redux-dark-mode/static/js/main.4a9a6ba5.chunk.js",
+    "main.js.map": "/react-redux-dark-mode/static/js/main.4a9a6ba5.chunk.js.map",
     "runtime-main.js": "/react-redux-dark-mode/static/js/runtime-main.0a3dd26d.js",
     "runtime-main.js.map": "/react-redux-dark-mode/static/js/runtime-main.0a3dd26d.js.map",
     "static/js/2.2b2f205d.chunk.js": "/react-redux-dark-mode/static/js/2.2b2f205d.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.0a3dd26d.js",
     "static/js/2.2b2f205d.chunk.js",
-    "static/js/main.705f0d18.chunk.js"
+    "static/js/main.4a9a6ba5.chunk.js"
   ]
 }
